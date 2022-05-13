@@ -1,6 +1,54 @@
 .hero {
-    background-image: url(/assets/clouds.jpg);
+    background-image: url(/assets/images/clouds.png);
     object-fit: cover;
     background-size: cover;
     height: 45rem;
+}
+.fair_launch{
+    background-image: url(/assets/images/slash_bg.png);
+    object-fit: cover;
+    background-size: cover;
+}
+.Faq{
+    background-image: url(/assets/images/pattern_bg.png);
+    object-fit: cover;
+    background-size: cover;
+}
+.wiki-text{
+    font-family: "Alone";
+}
+.stroke {
+    // color: black;
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.stroked {
+    // color: black;
+    -webkit-text-fill-color: rgb(139 92 246);
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.stroked_cyan {
+    // color: black;
+    -webkit-text-fill-color: rgb(103 232 249);
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.stroked_pink {
+    // color: black;
+    -webkit-text-fill-color: rgb(249 168 212);
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.stroked_yellow {
+    // color: black;
+    -webkit-text-fill-color: rgb(253 224 71);
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
