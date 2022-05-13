@@ -46,9 +46,28 @@
     -webkit-text-stroke-color: black;
 }
 .stroked_yellow {
-    // color: black;
     -webkit-text-fill-color: rgb(253 224 71);
     /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+}
+@media (max-width: 768px) {
+    .wiki_roadmap{
+        flex-wrap: wrap;
+    }
+    .wiki_tail{
+        position: relative;
+        left: 33.333333%;
+    };
+}
+@media (max-width: 425px) {
+    .wiki_tail{
+        position: initial;
+        left: 0;
+    }
+}
+@media (max-width: 375px) {
+    .roadmap {
+        margin-left: 0px;
+    }
 }
