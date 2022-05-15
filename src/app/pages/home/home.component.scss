@@ -1,4 +1,10 @@
+path {
+  fill: transparent;
+}
 
+text {
+  fill: #FF9800;
+}
 
 .hero {
     background-image: url(/assets/images/clouds.png);
@@ -116,7 +122,7 @@
         bottom: 4rem;
     }
     .hat_gif{
-            height: 17rem; 
+            height: 17rem;
     }
     .features_section{
         padding: 60px;
@@ -129,7 +135,7 @@
        position: initial;
        bottom: 0;
     }
-    
+
     .line_border{
         height: 155rem;
     }
@@ -151,7 +157,7 @@
         .footer_contract {
             margin-right: 0px;
         }
-    
+
         .footer_chart {
             margin-left: 0px;
         }
