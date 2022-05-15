@@ -3,7 +3,7 @@
     font-family: "Alone";
     src: local("Alone"), url(./assets/font/Alone-On-Earth.otf) format("truetype") ;
 }
- 
+
 @font-face {
     font-family: "MyriadPro_Bold";
     src: local("MyriadPro_Bold"), url(./assets/font/MyriadPro-Bold.otf) format("truetype");
@@ -17,4 +17,12 @@
 @font-face {
     font-family: "MyriadPro_it";
     src: local("MyriadPro-it"), url(./assets/font/MyriadPro-It.otf) format("truetype");
+}
+
+.bg-violet-300 {
+  background-color: #a89fff !important;
+}
+
+.text-violet-500 {
+  color: #6159b5 !important;
 }
