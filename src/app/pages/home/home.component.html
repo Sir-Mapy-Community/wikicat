@@ -215,42 +215,23 @@
 <div class="container flex justify-center mb-16 -mt-52">
   <div class="">
     <h3 class="text-6xl ml-3 text-cyan-300 font-bold wiki-text stroked_cyan">
-      PHASE 1 <br />
-      <img
+      PHASE {{currentArray+1}} <br />
+      <img *ngIf="this.phases.length !== this.currentArray+1"
         src="assets/images/right_chevron.png"
         class="h-24 mt-3 bg-cyan-300 rounded-full p-5"
-        alt=""
+        alt="" (click)="nextPhase()"
+      />
+      <img *ngIf="currentArray!=0"
+        src="assets/images/left_chevron.png"
+        class="h-24 mt-3 bg-cyan-300 rounded-full p-5"
+        alt="" (click)="previousPhase()"
       />
       <br />
     </h3>
   </div>
   <ul class="font-bold  wiki-text-small phase_text">
-    <li>
-      <i class="fa-solid fa-check p-1.5 text-cyan-300"></i>Wiki Cat Launch
-    </li>
-    <li><i class="fa-solid fa-check p-1.5 text-cyan-300"></i>500 holders</li>
-    <li>
-      <i class="fa-solid fa-check p-1.5 text-cyan-300"></i>2000 wallet
-      Transacctions
-    </li>
-    <li><i class="fa-solid fa-check p-1.5 text-cyan-300"></i>Website Launch</li>
-    <li>
-      <i class="fa-solid fa-check p-1.5 text-cyan-300"></i>Contract auditing by
-      solidity Finance
-    </li>
-    <li>
-      <i class="fa-solid fa-check p-1.5 text-cyan-300"></i>1000 Organic Telegram
-      Members
-    </li>
-    <li>
-      <i class="fa-solid fa-check p-1.5 text-cyan-300"></i>Creation of our
-      Chinese and Turkish Community
-    </li>
-    <li>
-      <i class="fa-solid fa-check p-1.5 text-cyan-300"></i>Wite Paper Creation
-    </li>
-    <li>
-      <i class="fa-solid fa-check p-1.5 text-cyan-300"></i>Road Map Creation
+    <li *ngFor="let phase of currentPhase">
+      <i class="fa-solid fa-check p-1.5 text-cyan-300"></i>{{phase}}
     </li>
   </ul>
 </div>
