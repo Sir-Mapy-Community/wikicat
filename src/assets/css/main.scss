@@ -1,0 +1,84 @@
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #FF9800;
+}
+
+.hero {
+  background-image: url(/assets/images/clouds.png);
+  object-fit: cover;
+  background-size: cover;
+  height: 45rem;
+}
+.fair_launch{
+  background-image: url(/assets/images/slash_bg.png);
+  object-fit: cover;
+  background-size: cover;
+}
+.Faq{
+  background-image: url(/assets/images/pattern_bg.png);
+  object-fit: cover;
+  background-size: cover;
+}
+.wiki-text{
+  font-family: "Alone";
+}
+.wiki-text-small{
+  font-family: "MyriadPro_Bold";
+}
+.wiki_tail{
+  height:38rem
+}
+.line_border{
+  left: 9.8%;
+  margin-top: 131px;
+  height: 82rem;
+  border: 3px solid #6159B5 ;
+}
+.border_text{
+  writing-mode: vertical-rl
+}
+.paw{
+  left:117px
+
+}
+.stroke {
+// color: black;
+  -webkit-text-fill-color: white;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.stroked {
+// color: black;
+  -webkit-text-fill-color: rgb(139 92 246);
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.stroked_cyan {
+// color: black;
+  -webkit-text-fill-color: rgb(103 232 249);
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.stroked_pink {
+// color: black;
+  -webkit-text-fill-color: rgb(249 168 212);
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.stroked_yellow {
+  -webkit-text-fill-color: rgb(253 224 71);
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.footer_text{
+  font-family: "MyriadPro-it";
+}
+
