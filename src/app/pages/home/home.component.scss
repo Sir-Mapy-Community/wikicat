@@ -148,4 +148,28 @@
     .roadmap {
         margin-left: 0px;
     }
+        .footer_contract {
+            margin-right: 0px;
+        }
+    
+        .footer_chart {
+            margin-left: 0px;
+        }
+}
+@media (max-width: 320px) {
+    .wiki-button{
+        padding-right: 0.5rem;
+    }
+    .paw {
+        left: 5px;
+    }
+    .features_section {
+        padding: 60px;
+    }
+    .footer_contract{
+        margin-right: 0px;
+    }
+    .footer_chart{
+        margin-left: 0px;
+    }
 }
