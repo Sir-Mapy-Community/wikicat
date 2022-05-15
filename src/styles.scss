@@ -8,3 +8,13 @@
     font-family: "MyriadPro_Bold";
     src: local("MyriadPro_Bold"), url(./assets/font/MyriadPro-Bold.otf) format("truetype");
 }
+
+@font-face {
+    font-family: "MyriadPro_BoldCond";
+    src: local("MyriadPro_BoldCond"), url(./assets/font/MyriadPro-BoldCond.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "MyriadPro_it";
+    src: local("MyriadPro-it"), url(./assets/font/MyriadPro-It.otf) format("truetype");
+}

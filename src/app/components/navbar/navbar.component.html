@@ -1,17 +1,21 @@
-<nav class="bg-violet-300 p-1 shadow md:flex md:items-center md:justify-between">
+<nav class="bg-violet-300 p-5 shadow md:flex md:items-center md:justify-between ">
   <div class="container mx-auto flex-wrap flex justify-around ">
     <div class="flex items-center ml-60 cursor-pointer">
 
       <a href="#">
-        <img src="assets/images/logo.png " class="h-12 inline" alt="">
+        <img src="assets/images/logo.png " class="h-20 inline" alt="">
       </a>
-      <button class="inline-flex item-center justify-center outline-none focus:outline-none ml-auto">   
+      <button class="inline-flex item-center justify-center outline-none focus:outline-none ml-auto
+                      " >  
+                      <!-- (click)="ToggleMenu"  -->
            <i class="fa-solid fa-bars lg:hidden "></i>
       </button>
     </div>
-    <div  class="lg:inline-flex lg:w-auto mt-2 lg:mt-0 w-full flex justify-center">
+    <div  class="lg:inline-flex lg:w-auto  lg:mt-0 w-full flex justify-center"
+                  >  
+                  <!-- ngIf="isMenu" -->
       <ul class="lg:flex-row flex  flex-col text-violet-500 
-                     transitio-all ease-in duration-500">
+                     transitio-all ease-in duration-500 mt-10 font-bold text-xl">
         <div class=" items-center lg:flex mr-44 nav-item">
 
           <li class="mx-5 my-6 md:my-0">
@@ -31,16 +35,16 @@
       
     </div>
     <div class="items-center  ">
-          <div class="ml-10  ">
-            <i class="fa-brands fa-telegram text-sm p-1 py-0.5  px-1.5 bg-white rounded-full mb-1 mr-1"></i>
-            <i class="fa-brands fa-reddit-alien text-sm p-1 py-0.5 px-1.5 bg-white rounded-full mb-1 mr-1"></i>
-            <i class="fa-brands fa-twitter text-sm p-1 py-0.5 px-1.5 bg-white rounded-full mb-1 mr-1"></i>
-            <i class="fa-brands fa-instagram text-sm p-1 py-0.5 px-1.5  bg-white rounded-full mb-1 mr-1"></i>
+          <div class="ml-10 text-violet-500">
+            <i class="fa-brands fa-telegram text-sm p-1 py-0.5  px-1.5 bg-white rounded-full mb-3 mr-1"></i>
+            <i class="fa-brands fa-reddit-alien text-sm p-1 py-0.5 px-1.5 bg-white rounded-full mb-3 mr-1"></i>
+            <i class="fa-brands fa-twitter text-sm p-1 py-0.5 px-1.5 bg-white rounded-full mb-3 mr-1"></i>
+            <i class="fa-brands fa-instagram text-sm p-1 py-0.5 px-1.5  bg-white rounded-full mb-3 mr-1"></i>
           </div>
             
-          <div class="nav-item w-40 flex bg-violet-900 text-white duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded-full">
+          <div class="nav-item w-40 flex bg-violet-500 border-2 border-white duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded-full">
             <img class="h-6 mr-2.5" src="/assets/images/coins.png" alt=""> 
-              <button class="text-yellow">
+              <button class="text-yellow-300">
                   <a href="#">
                       BUY NOW</a>    
              </button>

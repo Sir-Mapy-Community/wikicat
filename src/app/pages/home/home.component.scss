@@ -22,6 +22,22 @@
 .wiki-text-small{
     font-family: "MyriadPro_Bold";
 }
+.wiki_tail{
+    height:38rem
+}
+.line_border{
+    left: 9.8%;
+    margin-top: 131px;
+    height: 82rem;
+    border: 3px solid #6159B5 ;
+}
+.border_text{
+    writing-mode: vertical-rl
+}
+.paw{
+    left:117px
+
+}
 .stroke {
     // color: black;
     -webkit-text-fill-color: white;
@@ -56,21 +72,51 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
+.footer_text{
+    font-family: "MyriadPro-it";
+}
 @media (max-width: 768px) {
     .wiki_roadmap{
         flex-wrap: wrap;
     }
-    .wiki_tail{
-        position: relative;
-        left: 33.333333%;
+    .wiki_gif{
+        position: initial;
+        left: 0;
     };
+    .line_border{
+        left: 5.8%;
+        margin-top: 131px;
+        height: 82rem;
+        border: 3px solid #6159B5;
+    }
+        .border_text {
+            writing-mode: vertical-rl;
+            position:absolute;
+            left:0;
+        }
+        .paw {
+            left: 32px;
+        }
+
+        .phase_text{
+            margin-top: 8rem;
+        }
+        .roadmap {
+            margin-left: 0px;
+        }
 }
 @media (max-width: 425px) {
     .wiki_tail{
         position: initial;
         left: 0;
     }
-}
+    .cat_on_coins{
+        bottom: 4rem;
+    }
+    .hat_gif{
+            height: 17rem; 
+    }
+};
 @media (max-width: 375px) {
     .roadmap {
         margin-left: 0px;
