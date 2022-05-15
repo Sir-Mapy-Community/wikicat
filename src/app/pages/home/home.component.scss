@@ -119,11 +119,29 @@
             height: 17rem; 
     }
     .features_section{
-        padding: 90px;
+        padding: 60px;
+    }
+
+    .features_section_text{
+        margin-bottom: 30px;
     }
     .features_section2{
        position: initial;
        bottom: 0;
+    }
+    
+    .line_border{
+        height: 155rem;
+    }
+    .border_text{
+        margin-top: 55px;
+        writing-mode: vertical-rl;
+        position: absolute;
+        left: -8px;
+        font-size: x-large;
+    }
+    .paw{
+         left: 10px;
     }
 };
 @media (max-width: 375px) {
