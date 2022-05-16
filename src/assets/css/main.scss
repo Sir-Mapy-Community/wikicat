@@ -12,10 +12,41 @@ text {
   background-size: cover;
   height: 45rem;
 }
+.stacked_coins{
+  top: 406px
+}
+.cat_on_coins{
+  bottom: 86rem;
+}
+.bottom_cloud{
+  top: 533px;
+}
+.svg_text{
+  position: relative;
+  top: -127px;
+}
+.svg_text2{
+  position: relative;
+  top: -127px;
+}
+.fair_launchs {
+  background-image: url(/assets/images/slash_bg.png);
+  // object-fit: cover;
+  background-size: 873px;
+  background-position: right 0px top;
+  background-repeat: no-repeat;
+  background-position-y: -93px;
+}
 .fair_launch{
   background-image: url(/assets/images/slash_bg.png);
-  object-fit: cover;
-  background-size: cover;
+  // object-fit: cover;
+  background-size: 873px;
+  background-position: left 0px top;
+  background-repeat: no-repeat;
+  background-position-y: -93px;
+}
+.gif{
+  height: 25rem;
 }
 .Faq{
   background-image: url(/assets/images/pattern_bg.png);
@@ -31,10 +62,15 @@ text {
 .wiki_tail{
   height:38rem
 }
+.phase_circle{
+  position: absolute;
+  left: 265px;
+  margin-top: 30px;
+}
 .line_border{
   left: 9.8%;
   margin-top: 131px;
-  height: 82rem;
+  height: 85rem;
   border: 3px solid #6159B5 ;
 }
 .border_text{

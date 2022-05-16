@@ -11,8 +11,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   phases = [
-    [
-      "Wiki Cat Launch", "500 holders", "2,000 wallet Transactions", "Website Launch", "Contract auditing by solidity Finance", "1000 Organic Telegram Members", "Creation of our Chinese and Turkish Community", "White Paper Creation", "Road Map Creation"
+    [  "Wiki Cat Launch", "500 holders", "2,000 wallet Transactions", "Website Launch", "Contract auditing by solidity Finance", "1000 Organic Telegram Members", "Creation of our Chinese and Turkish Community", "White Paper Creation", "Road Map Creation"
     ],
     [
       "Website Launch", "Contract auditing by solidity Finance", "1000 Organic Telegram Members", "Creation of our Chinese and Turkish Community", "White Paper Creation", "Road Map Creation"
