@@ -3,7 +3,11 @@ path {
 }
 
 text {
-  fill: #FF9800;
+  fill: rgb(253 224 71);
+  -webkit-text-fill-color: rgb(253 224 71);
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .hero {
@@ -16,7 +20,7 @@ text {
   top: 406px
 }
 .cat_on_coins{
-  bottom: 86rem;
+  bottom: 67rem;
 }
 .bottom_cloud{
   top: 533px;
@@ -24,10 +28,15 @@ text {
 .svg_text{
   position: relative;
   top: -127px;
+  margin-left: 312px;
+  font-family: "Alone";
+  
 }
-.svg_text2{
-  position: relative;
-  top: -127px;
+.svg_text2 {
+  position: absolute;
+  top: 119px;
+  margin-left: 358px;
+    font-family: "Alone";
 }
 .fair_launchs {
   background-image: url(/assets/images/slash_bg.png);

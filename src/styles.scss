@@ -19,10 +19,23 @@
     src: local("MyriadPro-it"), url(./assets/font/MyriadPro-It.otf) format("truetype");
 }
 
+* {
+  border: 1px solid red;
+}
+
 .bg-violet-300 {
   background-color: #a89fff !important;
 }
 
 .text-violet-500 {
   color: #6159b5 !important;
+}
+.bg-green-300{
+  background-color: #BCF698 !important;
+}
+.bg-yellow-200{
+      background-color: #fdff8f !important;
+}
+.bg-sky-300{
+   background-color: #9de7f1 !important;
 }
