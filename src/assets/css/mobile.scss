@@ -30,11 +30,13 @@
       .bottom_cloud {
         top: 600px;
       }
-        .stacked_coins {
-          top: 511px;
-        }
-  .cat_on_coins {
-      bottom: -7rem;
+    .stacked_coins {
+      bottom: -32rem;
+      left: 21rem;
+    }
+    .cat_on_coins {
+      left: -25rem;
+      top: -93px;
     }
 
 .nav-bar{
@@ -42,14 +44,19 @@
 }
 }
 @media (max-width: 768px) {
-  .cat_on_coins{
-    bottom: 23rem;
-  }
+  .cat_on_coins {
+      left: -18rem;
+      top: -69px;
+    }
   .bottom_cloud{
-    top: 872px;
+    top: 577px;
   }
-.stacked_coins{
-  top: 807px;
+.stacked_coins {
+  bottom: -28rem;
+  left: 18rem;
+}
+.wikicat_logo{
+      margin-top: 27rem !important;
 }
   .fair_launchs{
     margin-bottom: -107px !important;
@@ -109,9 +116,7 @@
   .wiki_tail{
     display: none;
   }
-  .cat_on_coins{
-    bottom: -6rem;
-  }
+  
   .hat_gif{
     height: 17rem;
   }
@@ -152,10 +157,16 @@
     padding: 30px;
   }
 .bottom_cloud {
-  top: 70rem;
+  top: 42rem;
 }
 .stacked_coins {
-  top: 67rem;
+    bottom: -28rem;
+    left: 9rem;
+    width: 444px;
+  }
+.cat_on_coins {
+  left: -17rem;
+  top: -62px;
 }
    
 }
@@ -178,9 +189,10 @@
   .paw {
     left: 5px;
   }
-  .cat_on_coins{
-    bottom: -9rem;
-  }
+  // .cat_on_coins{
+  //   bottom: -9rem;
+  //   position: absolute;
+  // }
   .features_section {
     padding: 60px;
   }
@@ -196,4 +208,19 @@
   .faq_p{
     margin-left: 3rem !important;
   }
+    .wikicat_logo {
+     margin-top: 0rem !important; 
+    }
+        .bottom_cloud {
+          top: 68rem;
+        }
+  .stacked_coins {
+    bottom: -53rem;
+    left: 5rem;
+    width: 323px;
+  }
+    .cat_on_coins {
+      left: -12rem;
+      top: -49px;
+    }
 }
