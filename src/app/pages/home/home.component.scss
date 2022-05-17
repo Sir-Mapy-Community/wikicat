@@ -7,3 +7,67 @@
     display: block !important;
   }
 }
+
+
+.G1 {
+  transform:translate(-173px, 126px) rotate(-35deg);
+}
+
+.e1 {
+  transform: translate(-179px, 115px) rotate(-34deg);
+}
+
+.e2 {
+  transform: translate(-184px, 106px) rotate(-31deg);
+}
+
+.k1 {
+  transform: translate(-189px, 96px) rotate(-29deg);
+}
+
+.s1 {
+  transform: translate(-195px, 83px) rotate(-24deg);
+}
+
+.f {
+  transform: translate(-200px,
+    71px) rotate(-17deg);
+}
+
+.o {
+  transform: translate(-205px,
+    60px) rotate(-17deg);
+}
+
+.r {
+  transform: translate(-170px, 38px) rotate(-10deg);
+}
+
+.G2 {
+  transform: translate(-170px, 30px) rotate(-10deg);
+}
+
+.e3 {
+  transform: translate(-138px, 8px) rotate(-6deg);
+}
+
+.e4 {
+  transform: translate(-140px, 6px) rotate(-5deg);
+}
+
+.k2 {
+  transform: translate(-141px, 5px) rotate(-6deg);
+}
+
+.w1 {
+transform: translate(-258px, 108px) rotate(-36deg);
+font-size: 90px;
+}
+
+/* An inline-block element is placed as an inline
+         element (on the same line as adjacent content), 
+         but it behaves like a block element  */
+
+span {
+  display: inline-block;
+}

@@ -19,9 +19,13 @@
     src: local("MyriadPro-it"), url(./assets/font/MyriadPro-It.otf) format("truetype");
 }
 
-* {
-  border: 1px solid red;
+.wrapper{
+  overflow-x: hidden;
 }
+
+// * {
+//   border: 1px solid red;
+// }
 
 .bg-violet-300 {
   background-color: #a89fff !important;
@@ -41,4 +45,7 @@
 }
 .bg-fuchsia-300{
   background-color: #feb6f5 !important;
+}
+.bg-cyan-300{
+  background-color: #90f0f1 !important;
 }
