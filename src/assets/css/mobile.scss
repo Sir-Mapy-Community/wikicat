@@ -45,6 +45,10 @@
 }
 }
 @media (max-width: 768px) {
+.hero-text1{
+  margin-left: 300px;
+}
+
   .cat_on_coins {
       /* left: -18rem; */
       /* top: -69px; */
@@ -116,6 +120,15 @@
     }
 }
 @media (max-width: 425px) {
+ 
+.hero-text1 {
+    margin-left: 324px;
+    transform: rotate(7deg);
+  }  
+  .hero-text2{
+    height: 5rem !important;
+    right: 20rem !important;
+  }
   .wiki_tail{
     display: none;
   }
