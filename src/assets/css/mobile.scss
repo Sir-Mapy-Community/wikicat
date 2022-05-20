@@ -3,14 +3,6 @@
   .paw {
     left: 126px;
   }
-    // .phase_circle {
-    //   position: absolute;
-    //   left: 340px;
-    //   margin-top: 30px;
-    // }
-    // .phase_text{
-    //       margin-left: -7rem;
-    // }
 }
 @media  (max-width:1024px) {
   .wiki_tail {
@@ -29,11 +21,10 @@
     }
     .bottom_cloud {
       /* top: 600px; */
-      top: -545px;
+      top: -459px !important;
     }
     .stacked_coins {
-      bottom: -32rem;
-      left: 21rem;
+        margin-top: 110px;
     }
     .cat_on_coins {
       /* left: -17rem; */
@@ -46,18 +37,22 @@
 }
 }
 @media (max-width: 768px) {
+.hero-text1{
+  margin-left: 300px;
+}
+
   .cat_on_coins {
       /* left: -18rem; */
       /* top: -69px; */
-      margin-top: 154px;
+      margin-top: 101px;
     }
   .bottom_cloud{
-    top: -526px;
+    top: -391px !important;
   }
 .stacked_coins {
   /* bottom: -28rem; */
   /* left: 18rem; */
-  margin-top: 40px;
+  margin-top: 140px;
 }
 .wikicat_logo{
       margin-top: 27rem !important;
@@ -117,17 +112,24 @@
     }
 }
 @media (max-width: 425px) {
+ 
+.hero-text1 {
+    margin-left: 324px;
+    transform: rotate(7deg);
+  }  
+  .hero-text2{
+    height: 5rem !important;
+    right: 20rem !important;
+  }
   .wiki_tail{
     display: none;
   }
-  
   .hat_gif{
     height: 17rem;
   }
   .features_section{
     padding: 60px;
   }
-
   .features_section_text{
     margin-bottom: 30px;
   }
@@ -135,7 +137,6 @@
     position: initial;
     bottom: 0;
   }
-
   .line_border{
     height: 155rem;
   }
@@ -160,21 +161,14 @@
     width: 370px !important;
     padding: 30px;
   }
-// .bottom_cloud {
-//   top: 42rem;
-// }
 .bottom_cloud {
-  top: -25rem;
+  top: -17rem !important;
 }
 .stacked_coins {
-  /* bottom: -28rem; */
-  /* left: 18rem; */
-  margin-top: 10px;
+  margin-top: 133px;
 }
 .cat_on_coins {
-  /* left: -18rem; */
-  /* top: -69px; */
-  margin-top: 225px;
+  margin-top: 99px;
   width: 100% !important;
 }
 .coins{
@@ -184,133 +178,83 @@
   margin-top: 5rem !important;
 }
 
-
-// .G1 {
-//   transform: translate(2px, 98px) rotate(-32deg) !important;
-// }
-
-// .e1 {
-//   transform: translate(-2px, 86px) rotate(-31deg) !important;
-// }
-
-// .e2 {
-//   transform: translate(-6px, 78px) rotate(-29deg) !important;
-// }
-
-// .k1 {
-//   transform: translate(-6px, 69px) rotate(-21deg) !important;
-// }
-
-// .s1 {
-//   transform: translate(-9px, 59px) rotate(-22deg) !important;
-// }
-
-// .f {
-//   transform: translate(-13px,
-//       48px) rotate(-19deg) !important;
-// }
-
-// .o {
-//   transform: translate(-16px,
-//       38px) rotate(-22deg) !important;
-// }
-
-// .r {
-//   transform: translate(-4px, 30px) rotate(-5deg) !important;
-// }
-
-// .G2 {
-//   transform: translate(-2px, 27px) rotate(-4deg) !important;
-// }
-
-// .e3 {
-//   transform: translate(17px, 23px) rotate(-3deg) !important;
-// }
-
-// .e4 {
-//   transform: translate(14px, 21px) rotate(-5deg) !important;
-// }
-
-// .k2 {
-//   transform: translate(14px, 19px) rotate(-5deg) !important;
-// }
-// // smartest
-// .w1 {
-//   transform: translate(20px, 106px) rotate(-24deg) !important;
-
-// }
-
-// .m1 {
-//   transform: translate(14px, 81px) rotate(-27deg) !important;
-// }
-
-// .a1 {
-//   transform: translate(13px, 59px) rotate(-21deg) !important;
-// }
-
-// .r1 {
-//   transform: translate(10px, 46px) rotate(-22deg) !important;
-// }
-
-// .t1 {
-//   transform: translate(9px, 36px) rotate(-18deg) !important;
-// }
-
-// .cd {
-//   transform: translate(8px, 26px) rotate(-17deg) !important;
-// }
-
-// .v1 {
-//   transform: translate(7px, 17px) rotate(-11deg) !important;
-// }
-
-// .x1 {
-//   transform: translate(8px, 7px) rotate(-15deg) !important;
-// }
 }
-
+@media (max-width:414px) {
+  .stacked_coins {
+      margin-top: -105px !important;
+    }
+    .bottom_cloud{
+      margin-top: -10rem !important;
+    }
+}
+@media (max-width:390px) {
+  .stacked_coins {
+      margin-top: -64px !important;
+    }
+  .bottom_cloud{
+    margin-top: -140px;
+  }
+}
+@media (max-width:393px) {
+  .stacked_coins {
+      margin-top: -78px !important;
+    }
+  .bottom_cloud {
+    margin-top: -144px !important;
+  }
+}
 @media (max-width: 375px) {
   .roadmap {
     margin-left: 0px;
   }
   .footer_contract {
-    margin-right: 0px;
+    margin-right: 0px !important;
   }
 
   .footer_chart {
-    margin-left: 0px;
+    margin-left: 0px !important;
   }
   .stacked_coins {
-    /* bottom: -28rem; */
-    /* left: 18rem; */
-    margin-top: 20px;
+    margin-top: 156px !important;
   }
   .bottom_cloud {
-    top: -25rem;
+    top: -7rem !important;
   }
     .cat_on_coins {
-      /* left: -18rem; */
-      /* top: -69px; */
-      margin-top: 256px;
+      margin-top: 116px;
     }
     .wikicat_logo {
       margin-top: 9rem !important;
+    }
+    .footer_link li{
+      margin-right: 0rem;
+    }
+}
+@media (max-width:360px) {
+  .stacked_coins {
+    margin-top: -9px !important;
+  }
+  .bottom_cloud {
+    margin-top: -250px !important;
+  }
+    .wiki-button {
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
+    }
+    .paw {
+      left: 8px;
     }
 }
 @media (max-width: 320px) {
   .wiki-button{
    
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
-        margin-left: 0rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    margin-left: 0rem !important;
   }
   .paw {
     left: 5px;
   }
-  // .cat_on_coins{
-  //   bottom: -9rem;
-  //   position: absolute;
-  // }
   .features_section {
     padding: 60px;
   }
@@ -326,24 +270,87 @@
   .faq_p{
     margin-left: 3rem !important;
   }
-    .wikicat_logo {
-     margin-top: 9rem !important; 
-    }
-        .bottom_cloud {
-          top: -25rem;
-        }
-  .stacked_coins {
-    // bottom: -53rem;
-    // left: 5rem;
-    // width: 323px;
-    margin-top: -10px;
+  .wikicat_logo {
+    margin-top: 9rem !important; 
   }
-    .cat_on_coins {
-      // left: -12rem;
-      // top: -49px;
-      margin-top: 274px;
+  .bottom_cloud {
+    top: -1rem !important;
+  }
+  .stacked_coins {
+    margin-top: 117px !important;
+  }
+  .cat_on_coins {
+    margin-top: 131px;
+  }
+  .pink_section{
+    padding: 35px;
+  }
+}
+@media (max-width: 280px) {
+  .hero-text1 {
+      margin-left: 280px;
+      transform: rotate(7deg);
+      height: 5rem !important;
     }
-    .pink_section{
-      padding: 35px;
+    .bottom_cloud {
+      top: -4rem !important;
     }
+  .hero-text2 {
+    height: 3rem !important;
+    right: 17rem !important;
+  }
+  .slippage_text {
+    margin-bottom: 23px;
+  }
+  
+  .wikicat_logo {
+    margin-top: -5rem !important;
+  }
+  .wiki-button {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+  }
+    .border_text {
+      margin-top: 55px !important;
+      writing-mode: vertical-rl;
+      position: absolute;
+      left: -11px !important;
+      font-size: medium !important;
+    }
+  .paw {
+    left: 5px;
+  }
+
+  .features_section {
+    padding: 0px;
+  }
+
+    .wiki_gif {
+      position: relative;
+      left: 2rem !important;
+      padding: 0rem;
+    }
+    .phase_text {
+      margin-top: 18rem;
+      margin-left: 1rem !important;
+    }
+  .footer_contract {
+    margin-right: 0px !important;
+  }
+
+  .footer_chart {
+    margin-left: 0px !important;
+  }
+
+
+  
+
+    
+      .footer_link li{
+            margin-left: 13px;
+          margin-right: 0rem !important;
+      }
+
 }
