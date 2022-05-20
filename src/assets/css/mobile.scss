@@ -21,7 +21,7 @@
     }
     .bottom_cloud {
       /* top: 600px; */
-      top: -459px;
+      top: -459px !important;
     }
     .stacked_coins {
         margin-top: 110px;
@@ -47,7 +47,7 @@
       margin-top: 101px;
     }
   .bottom_cloud{
-    top: -366px;
+    top: -391px !important;
   }
 .stacked_coins {
   /* bottom: -28rem; */
@@ -162,7 +162,7 @@
     padding: 30px;
   }
 .bottom_cloud {
-  top: -17rem;
+  top: -17rem !important;
 }
 .stacked_coins {
   margin-top: 133px;
@@ -184,7 +184,7 @@
       margin-top: -105px !important;
     }
     .bottom_cloud{
-      margin-top: -10rem;
+      margin-top: -10rem !important;
     }
 }
 @media (max-width:390px) {
@@ -200,7 +200,7 @@
       margin-top: -78px !important;
     }
   .bottom_cloud {
-    margin-top: -144px;
+    margin-top: -144px !important;
   }
 }
 @media (max-width: 375px) {
@@ -218,7 +218,7 @@
     margin-top: 156px !important;
   }
   .bottom_cloud {
-    top: -7rem;
+    top: -7rem !important;
   }
     .cat_on_coins {
       margin-top: 116px;
@@ -235,7 +235,7 @@
     margin-top: -9px !important;
   }
   .bottom_cloud {
-    margin-top: -250px;
+    margin-top: -250px !important;
   }
     .wiki-button {
       padding-left: 0.5rem !important;
@@ -274,10 +274,10 @@
     margin-top: 9rem !important; 
   }
   .bottom_cloud {
-    top: -16rem;
+    top: -1rem !important;
   }
   .stacked_coins {
-    margin-top: 117px;
+    margin-top: 117px !important;
   }
   .cat_on_coins {
     margin-top: 131px;
@@ -293,7 +293,7 @@
       height: 5rem !important;
     }
     .bottom_cloud {
-      top: -4rem;
+      top: -4rem !important;
     }
   .hero-text2 {
     height: 3rem !important;
