@@ -33,6 +33,7 @@
             "styles": [
               "src/styles.scss",
               "src/assets/css/main.scss",
+              "src/assets/css/tablet.scss",
               "src/assets/css/mobile.scss"
             ],
             "scripts": []

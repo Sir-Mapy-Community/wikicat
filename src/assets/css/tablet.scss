@@ -1,0 +1,239 @@
+@media (max-width: 1440px) {
+
+    .paw {
+        left: 126px;
+    }
+
+    .wiki_tail {
+        position: relative;
+        right: -48px;
+    }
+}
+
+@media (max-width:1024px) {
+    .wiki_tail {
+        height: 25rem;
+    }
+
+    .phase_circle {
+        position: absolute;
+        left: 135px;
+        margin-top: 30px;
+    }
+
+    .paw {
+        left: 85px;
+    }
+
+    .wiki-text {
+        left: 3rem !important;
+    }
+
+    .bottom_cloud {
+        /* top: 600px; */
+        top: -459px ;
+    }
+
+    .stacked_coins {
+        margin-top: 110px;
+    }
+
+    .cat_on_coins {
+        /* left: -17rem; */
+        /* top: -93px; */
+        margin-top: 86px;
+    }
+
+    .nav-bar {
+        margin-left: 3rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-text1 {
+        margin-left: 300px;
+    }
+
+    .cat_on_coins {
+        /* left: -18rem; */
+        /* top: -69px; */
+        margin-top: 101px;
+    }
+
+    .bottom_cloud {
+        top: -375px ;
+    }
+
+    .stacked_coins {
+        /* bottom: -28rem; */
+        /* left: 18rem; */
+        margin-top: 140px;
+    }
+
+    .wikicat_logo {
+        margin-top: 27rem !important;
+    }
+
+    .fair_launchs {
+        margin-bottom: -107px !important;
+        padding-bottom: 135px;
+    }
+
+    .fair_launch {
+        padding-bottom: 10.25rem !important;
+    }
+
+    .features_section {
+        margin-bottom: 0rem !important;
+    }
+
+    .gif {
+        height: 15rem;
+        position: initial !important;
+        bottom: 0;
+    }
+
+    .wiki_roadmap {
+        flex-wrap: wrap;
+    }
+
+    .wiki_gif {
+        position: relative;
+        left: 0rem !important;
+    }
+
+    ;
+
+    .line_border {
+        left: 5.8%;
+        margin-top: 131px;
+        height: 76rem;
+        border: 3px solid #6159B5;
+    }
+
+    .border_text {
+        writing-mode: vertical-rl;
+        position: initial;
+        left: 0rem !important;
+    }
+
+    .paw {
+        left: 32px;
+    }
+
+    .phase_text {
+        margin-top: 8rem;
+        // margin-left: -12rem !important;
+    }
+
+    .phase_circle {
+        position: absolute;
+        left: 40px;
+        margin-top: 30px;
+    }
+
+    .roadmap {
+        margin-left: 0px;
+    }
+
+    .svg_text2 {
+        position: relative;
+        top: 471px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .hero-text1 {
+        margin-left: 324px;
+        transform: rotate(7deg);
+    }
+
+    .hero-text2 {
+        height: 5rem !important;
+        right: 20rem !important;
+    }
+
+    .wiki_tail {
+        display: none;
+    }
+
+    .hat_gif {
+        height: 17rem;
+    }
+
+    .features_section {
+        padding: 60px;
+    }
+
+    .features_section_text {
+        margin-bottom: 30px;
+    }
+
+    .features_section2 {
+        position: initial;
+        bottom: 0;
+    }
+
+    .line_border {
+        height: 155rem;
+    }
+
+    .border_text {
+        margin-top: 55px !important;
+        writing-mode: vertical-rl;
+        position: absolute;
+        left: -8px !important;
+        font-size: x-large !important;
+    }
+
+    .paw {
+        left: 10px;
+    }
+
+    .roadmap {
+        margin-left: 0px !important;
+    }
+
+    .phase_text {
+        margin-top: 18rem;
+        margin-left: 3rem !important;
+    }
+
+    .accordion {
+        width: 370px !important;
+        padding: 30px;
+    }
+
+    .bottom_cloud {
+        display: none !important;
+    }
+
+    .stacked_coins {
+        margin-top: 33%;
+    }
+
+    // .cat_on_coins {
+    //     margin-top: 99px;
+    //     width: 100% !important;
+    // }
+
+    // .coins {
+    //     width: 100% !important;
+    // }
+
+    // .wikicat_logo {
+    //     margin-top: 5rem !important;
+    // }
+
+}
+
+// @media (max-width:414px) {
+//     .stacked_coins {
+//         margin-top: -105px !important;
+//     }
+
+//     .bottom_cloud {
+//         margin-top: -10rem !important;
+//     }
+// }
