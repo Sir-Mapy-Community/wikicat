@@ -49,6 +49,10 @@ export class HomeComponent implements OnInit {
 
   }
 
+  // faq(data: any) {
+  //   console.log(data);
+  // }
+  
 
   
 

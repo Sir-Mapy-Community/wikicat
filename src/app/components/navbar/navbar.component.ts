@@ -7,13 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() {
-    // isMenuOpened: boolean = false;
-   }
+  constructor() {}
 
-  ngOnInit(): void {} 
-  
-  sideBar(data: any) {
+  ngOnInit(): void {}  sideBar(data: any) {
     console.log(data);
     console.log(data.classList);
       if (data.classList.contains('hidden')) {
@@ -27,17 +23,6 @@ export class NavbarComponent implements OnInit {
       data.classList.add('hidden');
       }
       console.log(data.classList);
-    }
-    // toggleMenu(): void {
-    //   this.isMenuOpened = !this.isMenuOpened;
-    // }
+    } 
   }
 
-// function Menu(e) {
-//       let list = document.querySelector('ul');
-
-//       e.name === 'menu' ? (e.name = "close", list?.classList.
-//         add('top-[80px]'), list?.classList.add('opacity-100')
-//       ) : e.name = "menu", list?.classList.remove('-top
-//       [80px]'), list?.classList.remove('opacity-100')
-//     }
