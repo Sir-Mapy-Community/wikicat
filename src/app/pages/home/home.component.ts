@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {environment} from "../../../environments/environment";
 
 
 @Component({
@@ -9,6 +10,8 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   constructor() { }
+
+  social = environment.social
 
   phases = [
     [  "Wiki Cat Launch", "500 holders", "2,000 wallet Transactions", "Website Launch", "Contract auditing by solidity Finance", "1000 Organic Telegram Members", "Creation of our Chinese and Turkish Community", "White Paper Creation", "Road Map Creation"
