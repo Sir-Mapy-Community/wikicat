@@ -152,6 +152,7 @@
     .hero-text2 {
         height: 5rem !important;
         right: 20rem !important;
+        padding: 2%
     }
 
     .wiki_tail {
@@ -210,9 +211,16 @@
     }
 
     .stacked_coins {
-        margin-top: 33%;
+        margin-top: -12%;
     }
 
+    .wikicat_logo {
+        margin-top: 2% !important;
+    }
+
+    .faq_p{
+        padding: 7%;
+    }
     // .cat_on_coins {
     //     margin-top: 99px;
     //     width: 100% !important;
@@ -222,9 +230,7 @@
     //     width: 100% !important;
     // }
 
-    // .wikicat_logo {
-    //     margin-top: 5rem !important;
-    // }
+    
 
 }
 
