@@ -25,9 +25,9 @@
         left: 85px;
     }
 
-    .wiki-text {
-        left: 3rem !important;
-    }
+    // .wiki-text {
+    //     left: 3rem !important;
+    // }
 
     .bottom_cloud {
         /* top: 600px; */
@@ -44,9 +44,7 @@
         margin-top: 86px;
     }
 
-    .nav-bar {
-        margin-left: 3rem !important;
-    }
+   
 }
 
 @media (max-width: 768px) {
@@ -152,6 +150,7 @@
     .hero-text2 {
         height: 5rem !important;
         right: 20rem !important;
+        padding: 2%
     }
 
     .wiki_tail {
@@ -210,9 +209,23 @@
     }
 
     .stacked_coins {
-        margin-top: 33%;
+        margin-top: -12%;
     }
 
+    .wikicat_logo {
+        margin-top: 2% !important;
+    }
+
+    .faq_p{
+        padding: 7%;
+    }
+
+    .wikicat_logo_text{
+        padding: 16px;
+    }
+    .wiki_liquidity{
+        margin-left: 10%;
+    }
     // .cat_on_coins {
     //     margin-top: 99px;
     //     width: 100% !important;
@@ -222,9 +235,7 @@
     //     width: 100% !important;
     // }
 
-    // .wikicat_logo {
-    //     margin-top: 5rem !important;
-    // }
+    
 
 }
 
