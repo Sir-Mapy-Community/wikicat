@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {environment} from "../../../environments/environment";
 
 @Component({
   selector: 'app-navbar',
@@ -7,11 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  links = environment.links;
+  social = environment.social;
+
   constructor() {}
 
   ngOnInit(): void {}  sideBar(data: any) {
-    console.log(data);
-    console.log(data.classList);
+    // console.log(data);
+    // console.log(data.classList);
       if (data.classList.contains('hidden')) {
         data.classList.add('lg:inline-flex');
       data.classList.add('flex');
@@ -22,7 +26,7 @@ export class NavbarComponent implements OnInit {
       data.classList.remove('flex');
       data.classList.add('hidden');
       }
-      console.log(data.classList);
-    } 
+      // console.log(data.classList);
+    }
   }
 

@@ -3,7 +3,7 @@
     <div class="flex items-center justify-between w-full lg:w-auto cursor-pointer nav-bar">
 
       <a href="#">
-        <img src="assets/images/logo.png " class="h-20 inline" alt="">
+        <img src="assets/images/logo.svg" class="h-20 inline" alt="">
       </a>
       <button class="inline-flex item-center text-2xl justify-center outline-none focus:outline-none ml-auto
                       "type="button" (click)="sideBar(menu)">
@@ -24,13 +24,12 @@
                   <a href="#" class="flex hover:text-cyan-500 duration-500 hover:bg-violet-900  rounded-md px-4 py-2">ABOUT</a>
           </li>
           <li class=" my-6 md:my-0">
-                  <a href="https://pancakeswap.finance/swap?outputCurrency=0x6Ec90334d89dBdc89E08A133271be3d104128Edb" class="flex hover:text-cyan-500 duration-500 hover:bg-violet-900  rounded-md px-4 py-2">
+                  <a href="{{links.buy}}" class="flex hover:text-cyan-500 duration-500 hover:bg-violet-900  rounded-md px-4 py-2">
                     HOW TO BUY
                   </a>
           </li>
           <li class=" my-6 md:my-0">
-              <a href="https://bscscan.com/token/0x6Ec90334d89dBdc89E08A133271b
-                  e3d104128Edb" class="flex hover:text-cyan-500 duration-500 hover:bg-violet-900 rounded-md px-4 py-2">
+              <a href="{{links.chart}}" class="flex hover:text-cyan-500 duration-500 hover:bg-violet-900 rounded-md px-4 py-2">
                   LINK
               </a>
           </li>
@@ -39,25 +38,29 @@
 
        <div class="items-center ">
             <div class="ml-4 text-violet-500 navbar_icon">
-              <a href="https://t.me/WikicatCoin">
+              <a href="{{social.telegram}}" target="_blank">
                   <i class="fa-brands fa-telegram text-sm p-1 py-0.5  px-1.5 bg-white rounded-full mb-3 mr-1"></i>
               </a>
-              <i class="fa-brands fa-reddit-alien text-sm p-1 py-0.5 px-1.5 bg-white rounded-full mb-3 mr-1"></i>
-              <a href="https//twitter.com/WikiCatCoin"> 
+              <a href="{{social.reddit}}" target="_blank">
+                <i class="fa-brands fa-reddit-alien text-sm p-1 py-0.5 px-1.5 bg-white rounded-full mb-3 mr-1"></i>
+              </a>
+              <a href="{{social.twitter}}" target="_blank">
                   <i class="fa-brands fa-twitter text-sm p-1 py-0.5 px-1.5 bg-white rounded-full mb-3 mr-1"></i>
               </a>
-              <i class="fa-brands fa-instagram text-sm p-1 py-0.5 px-1.5  bg-white rounded-full mb-3 mr-1"></i>
+              <a href="{{social.instagram}}" target="_blank">
+                <i class="fa-brands fa-instagram text-sm p-1 py-0.5 px-1.5  bg-white rounded-full mb-3 mr-1"></i>
+              </a>
             </div>
-  
+
             <div class="nav-item w-40 flex bg-violet-500 border-2 border-white duration-500 px-6 py-2 ml-5 hover:bg-cyan-500 rounded-full">
               <img class="h-6 mr-2.5" src="/assets/images/coins.png" alt="">
                 <button class="text-yellow-300 text-2xl">
-                    <a href="#">
+                    <a href="{{links.buy}}" target="_blank">
                         BUY NOW</a>
                </button>
             </div>
            </div>
-              
+
     </div>
   </div>
 </nav>
