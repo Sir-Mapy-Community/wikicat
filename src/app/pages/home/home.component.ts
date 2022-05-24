@@ -11,16 +11,20 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  social = environment.social
+  social = environment.social;
+  links = environment.links;
 
   phases = [
-    [  "Wiki Cat Launch", "500 holders", "2,000 wallet Transactions", "Website Launch", "Contract auditing by solidity Finance", "1000 Organic Telegram Members", "Creation of our Chinese and Turkish Community", "White Paper Creation", "Road Map Creation"
+    [  "Wiki Cat Launch", "500 holders", "2,000 wallet Transactions", "Website Launch", "Contract auditing by solidity Finance", "1000 Organic Telegram Members", "Creation of our Chinese and Turkish Community", "Road Map Creation"
     ],
     [
-      "Website Launch", "Contract auditing by solidity Finance", "1000 Organic Telegram Members", "Creation of our Chinese and Turkish Community", "White Paper Creation", "Road Map Creation"
+      "CoinMarketCap listing", "Coin Gecko listing", "5,000 telegram members", "2,000 holders", "Creation of donation wallet", "Listing on a centralized exchange", "Creation of Wiki Cat NFT (Wiki Cat Club)"
     ],
     [
-      "Contract auditing by solidity Finance", "1000 Organic Telegram Members", "Creation of our Chinese and Turkish Community", "White Paper Creation", "Road Map Creation"
+      "12,000 holders", "20,000 telegram members", "White paper release of wikicat Stable coin (WUSD)", "Increase marketing", "Partnership announcement", "Road map Review", "More Listing on centralized exchange", "Market analysis for the future"
+    ],
+    [
+      "50,000 holders", "Increase push towards crypto education in identified regions", "Listing on major top CEX", "Launch of Wiki Cat Stable coin (WUSD)", "CertiK or Hacken Audit for WKC and WUSD", "Increased Marketing for WUSD", "Project Review"
     ]
   ]
 
@@ -52,8 +56,8 @@ export class HomeComponent implements OnInit {
   // faq(data: any) {
   //   console.log(data);
   // }
-  
 
-  
+
+
 
 }

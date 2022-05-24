@@ -50,7 +50,7 @@
   >
     <img class="h-6 mr-2.5" src="/assets/images/coins.png" alt="" />
     <button class="text-yellow-300 wiki-text text-2xl wiki-button">
-      <a href="#"> BUY NOW</a>
+      <a href="{{links.buy}}" target="_blank"> BUY NOW</a>
     </button>
   </div>
   <div
@@ -58,7 +58,7 @@
   >
     <img class="h-6 mr-2.5" src="/assets/images/telegram_logo.png" alt="" />
     <button class="text-yellow-300 wiki-text text-2xl">
-      <a href="{{social.telegram}}"> TELEGRAM</a>
+      <a href="{{social.telegram}}" target="_blank"> TELEGRAM</a>
     </button>
   </div>
 </div>
@@ -224,7 +224,7 @@
     <div class="flex-wrap">
       <div class="bg-cyan-300 rounded-full phase_circle">
         <img
-          *ngIf="this.phases.length !== this.currentArray + 1"
+          *ngIf="phases.length !== currentArray + 1"
           src="assets/images/right_chevron.png"
           class="h-24 mt-3 pt-6 p-9"
           alt=""
@@ -286,7 +286,7 @@
 
               </summary>
               <p class="px-4 py-3 rounded-3xl">
-                Wiki Cat started out as a token by Sir. Mapy for the SMC community to teach them how to create mem tokens.
+                Wiki Cat started out as a token by Sir. Mapy for the SMC community to teach them how to create meme tokens.
                 Regardless, we believe the use case for Wiki Cat lies in the strength of its community that believes in
                 the social consensus of shared value.
                 This is what has taken the likes of Doge and Shiba Inu to billions of dollars in the market value.
@@ -312,7 +312,7 @@
                 Ownership is collectively owned by the community. There is no CEO,
                 no VC or board members pulling the strings in the background.
                 For this reason, no wallet has more than 5% of the token and funding or contributions for tis voluntary
-                and ultimately the community decides te future of the project.
+                and ultimately the community decides the future of the project.
               </p>
             </details>
 
@@ -345,9 +345,9 @@
 </div>
 <div class="bg-violet-300 font-bold wiki-text">
   <div class="flex justify-center pt-5 text-white text-2xl">
-    <a href="#" class="mt-10 mr-20 footer_contract">CONTRACT</a>
+    <a href="{{links.contract}}" target="_blank" class="mt-10 mr-20 footer_contract">CONTRACT</a>
     <img class="h-24" src="/assets/images/logo.png" alt="" />
-    <a href="#" class="mt-10 ml-20 footer_chart">CHART</a>
+    <a href="{{links.chart}}" target="_blank" class="mt-10 ml-20 footer_chart">CHART</a>
   </div>
 
   <ul
@@ -362,13 +362,12 @@
       <a href="#" class="hover:text-cyan-500 duration-500">ABOUT</a>
     </li>
     <li class="mx-5 my-6 md:my-0">
-      <a href="https://pancakeswap.finance/swap?outputCurrency=0x6Ec90334d89dBdc89E08A133271be3d104128Edb" class="hover:text-cyan-500 duration-500">
+      <a href="{{links.buy}}" target="_blank" class="hover:text-cyan-500 duration-500">
         HOW TO BUY
       </a>
     </li>
     <li class="mx-5 my-6 md:my-0">
-      <a href="https://bscscan.com/token/0x6Ec90334d89dBdc89E08A133271b
-                e3d104128Edb" class="hover:text-cyan-500 duration-500">
+      <a href="{{links.chart}}" target="_blank" class="hover:text-cyan-500 duration-500">
                 LINK
       </a>
     </li>
