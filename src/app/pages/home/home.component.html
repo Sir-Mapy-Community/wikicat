@@ -25,7 +25,7 @@
     />
     <!-- <img class="absolute bottom-5" src="assets/images/cloud.png" alt="" /> -->
   </div>
-  <img class="relative bottom_cloud " src="assets/images/cloud.png" alt="" />
+  <img class="relative  bottom_cloud " src="assets/images/cloud.png" alt="" />
 </div>
 
 <div class="flex flex-row min-h-0 justify-center mt-80 wikicat_logo">
@@ -63,6 +63,47 @@
   </div>
 </div>
 
+
+<!-- 
+     <div class="grid grid-cols-3 sm:grid-col-1  gap-x-10 justify-between">
+
+        <div class=" ">
+          <img
+          class="h-60"
+          src="assets/gifs/hat.gif"
+          alt=""
+           />
+        </div>
+        <div class="">
+           <h1 class="text-6xl font-bold text-white wiki-text stroke">
+              FAIR LAUNCH
+            </h1>
+            <p class="font-bold wiki-text-small features_section_text">
+              Wiki cat was launch 21 march 2022 to everyone <br>everywhere in the world. No early access, pre-mining <br>or token allocation. Everyone had the <br>chance to buy into it right at the start.
+            </p>
+        </div>
+      </div>   -->
+      <!-- <div>
+        <div class=" ...">
+           <h1 class="text-6xl font-bold text-white wiki-text stroke">
+              FAIR LAUNCH
+            </h1>
+            <p class="font-bold wiki-text-small features_section_text">
+              Wiki cat was launch 21 march 2022 to everyone <br>everywhere in the world. No early access, pre-mining <br>or token allocation. Everyone had the <br>chance to buy into it right at the start.
+            </p>
+        </div>
+        <div class=" ...">
+           <img
+          class="h-60"
+          src="assets/gifs/hat.gif"
+          alt=""
+           />
+        </div>
+      </div>  -->
+
+
+
+
 <div class="rounded-full absolute border-solid line_border"></div>
 <div class="bg-fuchsia-300 mt-20 fair_launchs -mb-16">
   <div class="flex justify-center">
@@ -88,13 +129,13 @@
           alt=""
         />
       </div>
-      <div class="col-6 relative left-20 wiki_gif">
+      <div class="col-6 relative lg:left-20 wiki_gif">
         <p class="mt-10"></p>
         <h1 class="text-6xl font-bold text-white wiki-text stroke">
           FAIR LAUNCH
         </h1>
-        <p class="font-bold wiki-text-small features_section_text">
-          Wiki cat was launch 21 march 2022 to everyone <br>everywhere in the world. No early access, pre-mining <br>or token allocation. Everyone had the <br>chance to buy into it right at the start.
+        <p class="font-bold MyriadPro_bold features_section_text">
+          Wiki cat was launch 21 march 2022 <br> to  everyone everywhere in the world. <br> No early access, pre-mining or token <br> allocation.  Everyone had the chance <br> to buy into it right at the start.
         </p>
       </div>
     </div>
@@ -116,11 +157,11 @@
           LIQUIDITY
         </h1>
         <br />
-        <p class="font-bold wiki-text-small">
-          Our liquidity pool is currently locked in <br>the ratio of 70:30. 70% will be automatically burned to <br>dead wallet after 2 years never to be recovered and 30% will <br>be used for major project listings and community <br>rewards for holders.
+        <p class="font-bold MyriadPro_bold">
+          Our liquidity pool is currently locked <br> in the ratio of 70:30. <br> 70% will be automatically  burned <br>to dead wallet after 2 years never <br> to be recovered  and 30%  will be used <br> for major project listings  and community <br> rewards for holders.
         </p>
       </div>
-      <div class="col-6 relative left-44 wiki_gif">
+      <div class="col-6 relative lg:left-44 wiki_gif">
         <img
           class="relative bottom-24 features_section2 gif"
           src="assets/gifs/chest.gif"
@@ -154,11 +195,11 @@
         <h1 class="text-6xl font-bold text-white wiki-text stroke">
           1% SLIPPAGE
         </h1>
-        <p class="font-bold text-black wiki-text-small slippage_text">
+        <p class="font-bold text-black MyriadPro_bold slippage_text">
           The default slippage tolerance <br>
            for wikicat on pancakeswap is 1% <br>
             but for a smother trade raise <br>
-             the slippage in small increments of <br>1% to 2%. We did it this way to give you the best value for your token.
+             the slippage in small increments of <br>1% to 2%. We did it this way to give you <br> the best value for your token.
         </p>
       </div>
     </div>
@@ -174,13 +215,13 @@
   </div>
   <div class="container">
     <div class="row flex justify-center flex-wrap pink_section">
-      <div class="col-6">
+      <div class="col-6 wiki_project">
         <p class="mt-10"></p>
         <h1 class="text-6xl font-bold text-white wiki-text stroke">
           PROJECT <br />
           FUNDS WALLET
         </h1>
-        <p class="font-bold wiki-text-small">
+        <p class="font-bold MyriadPro_bold">
           The 30% in the liquidity pool and <br>the 1% that goes to the team wallet <br>allow for development, listings and <br>marketing.
         </p>
       </div>
@@ -213,8 +254,8 @@
     <img class="wiki_tail" src="assets/gifs/tail.gif" alt="" />
   </div>
 </div>
-<div class="container flex justify-center mb-16 -mt-52">
-  <div class="">
+<div class="container flex justify-center mb-16 -mt-52 phase">
+  <div>
     <h3
       class="text-7xl -ml-52 text-cyan-300 font-bold wiki-text stroked_cyan phase_text"
     >
@@ -242,7 +283,7 @@
       </div>
     </div>
   </div>
-  <ul class="font-bold wiki-text-small phase_text">
+  <ul class="font-bold wiki-text-small">
     <li *ngFor="let phase of currentPhase">
       <i class="fa-solid fa-check p-1.5 text-cyan-300 mr-1.5"></i>{{ phase }}
     </li>
@@ -273,7 +314,7 @@
 
 
         <div class="accordion" id="accordionExample">
-          <div class="rounded-3xl accordion-item border-2 bg-white p-1 mt-3 wiki-text-small"
+          <div class="rounded-3xl accordion-item border-2 bg-white p-1 mt-3 MyriadPro_bold"
             >
             <details class="w-full bg-white rounded-full cursor-pointer mb-2">
               <summary class=" rounded-3xl relative flex justify-between w-full px-5 text-base text-gray-800 text-left bg-white border-0 transition focus:outline-none" >
@@ -295,7 +336,7 @@
 
 
           </div>
-          <div class="rounded-3xl accordion-item border-2 bg-white p-1 mt-3 wiki-text-small"
+          <div class="rounded-3xl accordion-item border-2 bg-white p-1 mt-3 MyriadPro_bold"
             >
             <details class="w-full bg-white rounded-full cursor-pointer mb-2">
               <summary class=" rounded-3xl outline-transparent relative flex justify-between w-full px-5 text-base text-gray-800 text-left bg-white border-0 transition " >
@@ -396,7 +437,7 @@
   <p class="text-center text-xl text-black pb-5">
     COPYRIGHT &copy; WIKI CAT TOKEN, ALL RIGHTS RESERVED
   </p>
-</div>
+</div> 
 
 
 
