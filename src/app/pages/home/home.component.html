@@ -25,7 +25,7 @@
     />
     <!-- <img class="absolute bottom-5" src="assets/images/cloud.png" alt="" /> -->
   </div>
-  <img class="relative  bottom_cloud " src="assets/images/cloud.png" alt="" />
+  <img class="relative bottom_cloud " src="assets/images/cloud.png" alt="" />
 </div>
 
 <div class="flex flex-row min-h-0 justify-center mt-80 wikicat_logo">
@@ -63,47 +63,6 @@
   </div>
 </div>
 
-
-<!-- 
-     <div class="grid grid-cols-3 sm:grid-col-1  gap-x-10 justify-between">
-
-        <div class=" ">
-          <img
-          class="h-60"
-          src="assets/gifs/hat.gif"
-          alt=""
-           />
-        </div>
-        <div class="">
-           <h1 class="text-6xl font-bold text-white wiki-text stroke">
-              FAIR LAUNCH
-            </h1>
-            <p class="font-bold wiki-text-small features_section_text">
-              Wiki cat was launch 21 march 2022 to everyone <br>everywhere in the world. No early access, pre-mining <br>or token allocation. Everyone had the <br>chance to buy into it right at the start.
-            </p>
-        </div>
-      </div>   -->
-      <!-- <div>
-        <div class=" ...">
-           <h1 class="text-6xl font-bold text-white wiki-text stroke">
-              FAIR LAUNCH
-            </h1>
-            <p class="font-bold wiki-text-small features_section_text">
-              Wiki cat was launch 21 march 2022 to everyone <br>everywhere in the world. No early access, pre-mining <br>or token allocation. Everyone had the <br>chance to buy into it right at the start.
-            </p>
-        </div>
-        <div class=" ...">
-           <img
-          class="h-60"
-          src="assets/gifs/hat.gif"
-          alt=""
-           />
-        </div>
-      </div>  -->
-
-
-
-
 <div class="rounded-full absolute border-solid line_border"></div>
 <div class="bg-fuchsia-300 mt-20 fair_launchs -mb-16">
   <div class="flex justify-center">
@@ -129,13 +88,14 @@
           alt=""
         />
       </div>
-      <div class="col-6 relative lg:left-20 wiki_gif">
+      <div class="col-6 relative left-20 wiki_gif">
         <p class="mt-10"></p>
         <h1 class="text-6xl font-bold text-white wiki-text stroke">
           FAIR LAUNCH
         </h1>
-        <p class="font-bold MyriadPro_bold features_section_text">
-          Wiki cat was launch 21<sup>st</sup> march 2022 <br> to everyone everywhere in the world.<br> No early access, pre-mining <br> or token allocation. <br> Everyone had the chance to buy <br> into it right at the start.
+        <p class="font-bold wiki-text-small features_section_text">
+          Wiki cat was launch 21<sup>st</sup> march 2022 to everyone <br>everywhere in the world. No early access, pre-mining <br>or token allocation. Everyone had the <br>chance to buy into it right at the start.<br>
+          Wiki Cat ownership has been <a href="{{links.renounce}}" target="_blank" style="color: #a79efe;">renounced</a>
         </p>
       </div>
     </div>
@@ -157,11 +117,11 @@
           LIQUIDITY
         </h1>
         <br />
-        <p class="font-bold MyriadPro_bold">
-          Our liquidity pool is currently locked <br> in the ratio of 70:30. <br> 70% will be automatically  burned <br>to dead wallet after 2 years never <br> to be recovered  and 30%  will be used <br> for major project listings  and community <br> rewards for holders.
+        <p class="font-bold wiki-text-small">
+          Our liquidity pool is currently <a href="{{links.lock}}" target="_blank">locked</a> in <br>the ratio of 70:30. 70% will be automatically burned to <br>dead wallet after 2 years never to be recovered and 30% will <br>be used for major project listings and community <br>rewards for holders.
         </p>
       </div>
-      <div class="col-6 relative lg:left-44 wiki_gif">
+      <div class="col-6 relative left-44 wiki_gif">
         <img
           class="relative bottom-24 features_section2 gif"
           src="assets/gifs/chest.gif"
@@ -195,12 +155,12 @@
         <h1 class="text-6xl font-bold text-white wiki-text stroke">
           1% SLIPPAGE
         </h1>
-        <p class="font-bold text-black MyriadPro_bold slippage_text">
+        <p class="font-bold text-black wiki-text-small slippage_text">
           The default slippage tolerance <br>
           for wikicat on Pancakeswap is 1% <br>
           but for a smoother trade, It is advised <br>
-        to raise the slippage in small increments <br> of  1% to 2%. 
-          We did it this way to <br> give you the best value for your token.
+          to raise the slippage in small increments of 1% to 2%. <br>
+          We did it this way to give you the best value for your token.
         </p>
       </div>
     </div>
@@ -216,13 +176,13 @@
   </div>
   <div class="container">
     <div class="row flex justify-center flex-wrap pink_section">
-      <div class="col-6 wiki_project">
+      <div class="col-6">
         <p class="mt-10"></p>
         <h1 class="text-6xl font-bold text-white wiki-text stroke">
           PROJECT <br />
           FUNDS WALLET
         </h1>
-        <p class="font-bold MyriadPro_bold">
+        <p class="font-bold wiki-text-small">
           The 30% in the liquidity pool and <br>the 1% that goes to the team wallet <br>for development, listings and <br>marketing.
         </p>
       </div>
@@ -255,8 +215,8 @@
     <img class="wiki_tail" src="assets/gifs/tail.gif" alt="" />
   </div>
 </div>
-<div class="container flex justify-center mb-16 -mt-52 phase">
-  <div>
+<div class="container flex justify-center mb-16 -mt-52">
+  <div class="">
     <h3
       class="text-7xl -ml-52 text-cyan-300 font-bold wiki-text stroked_cyan phase_text"
     >
@@ -284,7 +244,7 @@
       </div>
     </div>
   </div>
-  <ul class="font-bold wiki-text-small">
+  <ul class="font-bold wiki-text-small phase_text">
     <li *ngFor="let phase of currentPhase">
       <i class="fa-solid fa-check p-1.5 text-cyan-300 mr-1.5"></i>{{ phase }}
     </li>
@@ -315,7 +275,7 @@
 
 
         <div class="accordion" id="accordionExample">
-          <div class="rounded-3xl accordion-item border-2 bg-white p-1 mt-3 MyriadPro_bold"
+          <div class="rounded-3xl accordion-item border-2 bg-white p-1 mt-3 wiki-text-small"
             >
             <details class="w-full bg-white rounded-full cursor-pointer mb-2">
               <summary class=" rounded-3xl relative flex justify-between w-full px-5 text-base text-gray-800 text-left bg-white border-0 transition focus:outline-none" >
@@ -337,7 +297,7 @@
 
 
           </div>
-          <div class="rounded-3xl accordion-item border-2 bg-white p-1 mt-3 MyriadPro_bold"
+          <div class="rounded-3xl accordion-item border-2 bg-white p-1 mt-3 wiki-text-small"
             >
             <details class="w-full bg-white rounded-full cursor-pointer mb-2">
               <summary class=" rounded-3xl outline-transparent relative flex justify-between w-full px-5 text-base text-gray-800 text-left bg-white border-0 transition " >
@@ -350,7 +310,7 @@
 
               </summary>
               <p class="px-4 py-3 rounded-3xl">
-                Wiki Cat ownership has been renounced. <br>
+                Wiki Cat ownership has been <a href="{{links.renounce}}" target="_blank" style="color: #a79efe;">renounced</a>. <br>
                 Ownership is collectively owned by the community. <br>
                 There is no CEO, no VC or board members pulling the strings in the background. For this reason, no wallet has more than 5% of the token. Funding or contributions are voluntary and ultimately the community gets to decide the future of the project.
               </p>
@@ -399,7 +359,7 @@
       >
     </li>
     <li class="mx-5 my-6 md:my-0">
-      <a href="#" class="hover:text-cyan-500 duration-500">ABOUT</a>
+      <a href="{{links.audit}}" target="_blank" class="hover:text-cyan-500 duration-500">AUDIT</a>
     </li>
     <li class="mx-5 my-6 md:my-0">
       <a href="{{links.buy}}" target="_blank" class="hover:text-cyan-500 duration-500">
@@ -436,7 +396,7 @@
   <p class="text-center text-xl text-black pb-5">
     COPYRIGHT &copy; WIKI CAT TOKEN, ALL RIGHTS RESERVED
   </p>
-</div> 
+</div>
 
 
 
